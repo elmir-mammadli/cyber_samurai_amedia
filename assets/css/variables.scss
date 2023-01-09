@@ -1,0 +1,51 @@
+@import "fonts";
+
+$fontNav: 'HeliosLightC', sans-serif;
+$fontMid: 'Druk Text Wide Cyr', sans-serif;
+$fontMid1: 'Druk Wide Cyr Medium', sans-serif;
+$fontMid2: 'Druk Text Wide Cyr Heavy', sans-serif;
+$topBack: linear-gradient(to right bottom, #333333, #303030, #2c2c2c, #292929, #262626);
+$navbarBackColor: #202020;
+$mainBackColor: #e7401e;
+$h1Color: #E7401E;
+$contact_btn: #DDFF0F;
+$contact_btn_hover: #B3CE0EFF;
+
+h1, h2, h3, h4 {
+  font-family: $fontMid;
+  text-transform: uppercase;
+}
+h5 {
+  font-family: $fontMid2;
+  text-transform: uppercase;
+}
+h2, h3, h4, h5 {
+  color: white;
+}
+
+p {
+  font-family: $fontNav;
+  color: white;
+  font-size: 32px;
+  font-weight: 100;
+  position: relative;
+}
+
+ul {
+  color: white;
+  padding: 0;
+}
+
+.mid-bottom-red {
+  background-color: $mainBackColor;
+}
+
+.lh-p1 {
+  line-height: 41.6px;
+}
+
+@media (max-width: 576px) {
+  .lh-p1 {
+    line-height: 15.6px;
+  }
+}
